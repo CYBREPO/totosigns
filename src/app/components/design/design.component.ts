@@ -642,7 +642,7 @@ export class DesignComponent {
       groupList.push(shape1);
 
       shapeCanvas.add(...groupList);
-      groupList.forEach(m => { shapeCanvas.centerObject(m);});
+      // groupList.forEach(m => { shapeCanvas.centerObject(m);});
 
       data.graphics?.sort((a,b) => {return (a.stack_order??0) - (b.stack_order??0)});
       data.graphics?.forEach(grp => {

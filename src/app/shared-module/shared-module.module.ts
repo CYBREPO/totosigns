@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { MaterialModuleModule } from './material-module.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 
 
 
 @NgModule({
-  declarations: [SideNavComponent],
+  declarations: [SideNavComponent,BreadcrumbComponent],
   imports: [
     CommonModule,
     MaterialModuleModule,
