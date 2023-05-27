@@ -232,7 +232,7 @@ button {
 
 .crmGkW {
   position: relative;
-  background-image: url(/images/Jose-Banners-layout-FRONt.jpg);
+  background-image: url(/images/Jose-Banners-layout-FRONt.png);
   background-repeat: no-repeat;
   background-position: center top;
   height: 100vh;
@@ -429,7 +429,12 @@ svg:not(:root).svg-inline--fa {
 .hdAcJJ {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (11.1%)[9];
+      grid-template-columns: repeat(9, 11.1%);
   gap: 1px;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
 }
 
 .hdAcJJ a {
