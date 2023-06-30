@@ -12,7 +12,6 @@ import { SingleProductDetailsComponent } from './single-product-details/single-p
 import { AboutSingleProductDetailsComponent } from './about-single-product-details/about-single-product-details.component';
 import { WhyTotoSignComponent } from './why-toto-sign/why-toto-sign.component';
 
-
 const routes = [
   {path: '', component: PageLayoutComponent, children: [
     {path: 'landing-page', component: HomeComponent},
