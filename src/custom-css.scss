@@ -1,3 +1,7 @@
+button {
+  margin: 0 5px;
+}
+
 a {
   text-decoration: none !important;
 }
@@ -355,7 +359,6 @@ data-styled.g9[id="Header__UserBar-sc-irns1b-2"] {
 
 /*!sc*/
 .ijFqFS {
-  position:fixed;
   top: 27px;
   left: 0px;
   right: 0px;
@@ -2117,12 +2120,12 @@ svg:not(:root).svg-inline--fa {
 .hdAcJJ {
   display: -ms-grid;
   display: grid;
-    -ms-grid-columns: (11.1%);
-        grid-template-columns: repeat(9, 11.1%);
-    gap: 1px;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-        align-items: stretch;
+  -ms-grid-columns: (11.1%);
+  grid-template-columns: repeat(9, 11.1%);
+  gap: 1px;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 .hdAcJJ a {
@@ -2242,7 +2245,7 @@ a {
   padding: 5px 10px;
   font-size: 12px;
   border-radius: 5px;
-  margin: 2px 0px;
+  margin: 5px;
   cursor: pointer;
   display: inline-block;
   width: auto;
@@ -2994,9 +2997,6 @@ picture img {
   font-size: 18px;
 }
 
-main {
-  padding-top: 50px;
-}
 
 .gUhGRv div.images {
   background-color: white;
@@ -3644,3 +3644,10 @@ main {
 
 /*!sc*/
 /*# sourceMappingURL=style.css.map */
+.igWpfW .svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 12px;
+  overflow: visible;
+  vertical-align: -0.125em;
+  margin-right: 5px;
+}
