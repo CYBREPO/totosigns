@@ -1,8 +1,0 @@
-::ng-deep .mat-horizontal-stepper-header-container {
-  display: none !important;
-}
-
-::ng-deep.mat-pseudo-checkbox {
-  display: none !important;
-}
-/*# sourceMappingURL=side-nav.component.css.map */

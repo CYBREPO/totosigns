@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,UAAU,EAAE,OAAO;CACtB",
-    "sources": [
-        "signmaker-nav-bar.component.scss"
-    ],
-    "names": [],
-    "file": "signmaker-nav-bar.component.css"
-}

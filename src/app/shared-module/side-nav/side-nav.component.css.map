@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,SAAS,CAAC,wCAAwC,CAAC;EACjD,OAAO,EAAE,eAAe;CACzB;;AAED,AAAA,SAAS,AAAA,oBAAoB,CAAC;EAC5B,OAAO,EAAE,eAAe;CACzB",
-    "sources": [
-        "side-nav.component.scss"
-    ],
-    "names": [],
-    "file": "side-nav.component.css"
-}
